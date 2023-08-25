@@ -1,0 +1,36 @@
+deleting error
+{   
+    //! Ada di route predict  
+
+    '''fd_path = r"../src/Assets/images/uploads"
+        file_type = "\*jpg"
+        files = glob.glob(fd_path+file_type)
+        citra = max(files, key=os.path.getctime)
+        # files = glob.glob('../src/assets/images/uploads/*.jpg')
+        # citra = max(files, key=os.path.getmtime)
+        # files = os.listdir(fd_path)
+        # citra = files[0]
+        dataset = create_datates(citra_tes=citra)
+
+        prediction(citra_tes=citra, data_tes=data_tes)'''
+}
+
+{
+    //! return di route predict
+        # return redirect(url_for('index', total, pala_a, pala_b, pala_c))
+    # Process the image as needed (e.g. save to disk, analyze, etc.)
+
+    # Return a response (e.g. JSON data, HTML page, etc.)
+    # return jsonify(prediksi.toList())
+
+}
+
+{
+    //! return di rooute hasiul
+
+    # return render_template('index.html', data=data)
+    # return render_template('index.html', data=data)
+    # return redirect('/display?total_pala={}&pala_a={}&pala_b={}&pala_c={}'.format(dataset, total_pala, pala_a, pala_b, pala_c))
+
+
+}
